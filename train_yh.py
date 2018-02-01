@@ -21,7 +21,7 @@ Method = opt.yh_data_model
 raw_MRI_dir = '/home-local/Cycle_Deep/Data2D_bothimgandseg_andmask/MRI/img'
 raw_MRI_seg_dir = '/home-local/Cycle_Deep/Data2D_bothimgandseg_andmask/MRI/seg'
 raw_CT_dir = '/home-local/Cycle_Deep/Data2D_bothimgandseg_andmask/CT/img'
-sub_list_dir = '/home-local/Cycle_Deep/sublist_bothimgandseg_andmask'
+sub_list_dir = './sublist'
 
 
 TrainOrTest = opt.yh_run_model #'Train' #
