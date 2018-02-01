@@ -33,8 +33,7 @@ The data orgnization can be seen in the txt files in `sublist` directory
 ```bash
 python train_yh.py --dataroot ./datasets/yh --name yh_cyclegan_imgandseg --batchSize 4 --model cycle_seg --pool_size 50 --no_dropout --yh_run_model Train --dataset_mode yh_seg --input_nc 1  --seg_norm CrossEntropy --output_nc 1 --output_nc_seg 7 --checkpoints_dir /home-local/Cycle_Deep/Checkpoints/ --test_seg_output_dir /home-local/Cycle_Deep/Output/  --display_id 0 
 ```
-- Parameters
-'name' is 
+- 'name' is 
 `--model` "cycle_seg" means EssNet
 `--yh_run_model`  " Train" means do training 
 `--output_nv_seg` defines number of segmentation labels
@@ -44,15 +43,14 @@ python train_yh.py --dataroot ./datasets/yh --name yh_cyclegan_imgandseg --batch
 ## Testing
 - Test the synthesis
 ```bash
---dataroot ./datasets/yh --name yh_cyclegan_imgandseg --batchSize 4 --model cycle_gan --pool_size 50 --no_dropout --yh_run_model Test --dataset_mode yh --input_nc 1 --output_nc 1 --checkpoints_dir /home-local/Cycle_Deep/Checkpoints/ --test_seg_output_dir /home-local/Cycle_Deep/Output/ --which_epoch 50
+python train_yh.py --dataroot ./datasets/yh --name yh_cyclegan_imgandseg --batchSize 4 --model cycle_gan --pool_size 50 --no_dropout --yh_run_model Test --dataset_mode yh --input_nc 1 --output_nc 1 --checkpoints_dir /home-local/Cycle_Deep/Checkpoints/ --test_seg_output_dir /home-local/Cycle_Deep/Output/ --which_epoch 50
 ```
 
 - Test the segmentation
 ```bash
---dataroot ./datasets/yh --name yh_cyclegan_imgandseg --batchSize 4 --model test_seg --pool_size 50 --no_dropout --yh_run_model TestSeg --dataset_mode yh_test_seg  --input_nc 1 --output_nc 1 --checkpoints_dir/home-local/Cycle_Deep/Checkpoints/ --test_seg_output_dir /home-local/Cycle_Deep/Output/ --which_epoch 50
+python train_yh.py --dataroot ./datasets/yh --name yh_cyclegan_imgandseg --batchSize 4 --model test_seg --pool_size 50 --no_dropout --yh_run_model TestSeg --dataset_mode yh_test_seg  --input_nc 1 --output_nc 1 --checkpoints_dir/home-local/Cycle_Deep/Checkpoints/ --test_seg_output_dir /home-local/Cycle_Deep/Output/ --which_epoch 50
 ```
-- Parameters
-'name' is 
+- 'name' is 
 `--which_epoch` which training epoch to load
 
 
@@ -65,7 +63,7 @@ If you use this code for your research, please cite our papers.
   journal={arXiv preprint arXiv:1712.07695},
   year={2017}
 }
-
+```
 
 
 
