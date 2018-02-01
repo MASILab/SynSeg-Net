@@ -125,7 +125,7 @@ elif TrainOrTest == 'Train':
     opt.raw_CT_dir = raw_CT_dir
     opt.imglist_MRI = imglist_MRI
     opt.imglist_CT = imglist_CT
-    opt.crossentropy_weight = [1,1,opt.weight_2,opt.weight_3,1,opt.weight_7,1]
+    opt.crossentropy_weight = [1,1,10,10,1,10,1]
 
     data_loader = CreateDataLoader(opt)
     dataset = data_loader.load_data()
