@@ -1,4 +1,4 @@
-# <img src='imgs/Figure1.gif' align="right" width=384>
+# <img src='imgs/Figure1.jpg' align="right" width=384>
 
 <br><br><br>
 
