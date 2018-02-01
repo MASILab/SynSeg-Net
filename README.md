@@ -29,7 +29,8 @@ We used CT 2D slices (from coronal view) as testing data
 The data orgnization can be seen in the txt files in `sublist` directory
 
 ## Training
-#! python train_yh.py --dataroot ./datasets/yh --name yh_cyclegan_imgandseg --batchSize 5 --model cycle_seg --pool_size 50 --no_dropout --yh_run_model Train --dataset_mode yh_seg --yh_data_model ImageWithMask --input_nc 1  --seg_norm CrossEntropy --output_nc 1 --output_nc_seg 7 --checkpoints_dir /home-local/Cycle_Deep/CheckpointsNew/checkpoints/cross_entropy_lr0_0002 --test_seg_output_dir /home-local/Cycle_Deep/Output/CycleTest_all_new/cross_entropy_lr0_0002  --display_id 0 --weight_2 10 --weight_3 10 --weight_7 10
+```bash
+python train_yh.py --dataroot ./datasets/yh --name yh_cyclegan_imgandseg --batchSize 5 --model cycle_seg --pool_size 50 --no_dropout --yh_run_model Train --dataset_mode yh_seg --yh_data_model ImageWithMask --input_nc 1  --seg_norm CrossEntropy --output_nc 1 --output_nc_seg 7 --checkpoints_dir /home-local/Cycle_Deep/CheckpointsNew/checkpoints/cross_entropy_lr0_0002 --test_seg_output_dir /home-local/Cycle_Deep/Output/CycleTest_all_new/cross_entropy_lr0_0002  --display_id 0 --weight_2 10 --weight_3 10 --weight_7 10
 
 
 
