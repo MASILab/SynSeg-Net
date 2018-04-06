@@ -5,6 +5,7 @@
 
 This is our ongoing PyTorch implementation for end-to-end synthesis and segmentation without groudtruth.
 The paper can be found in [arXiv](https://arxiv.org/abs/1712.07695) for ISBI 2018
+The video can be found in [video](https://youtu.be/LTTh1WWPZ1o) on youtube
 
 The code was written by [Yuankai Huo](https://sites.google.com/site/yuankaihuo/) and developed upon [CycleGAN Torch](https://github.com/junyanz/CycleGAN).
 
