@@ -1,4 +1,4 @@
-# EssNet 
+# SynSeg-Net 
 (End-to-end Synthesis and Segmentation Network)
 
 ## Adversarial Synthesis Learning Enables Segmentation Without Target Modality Ground Truth
