@@ -14,9 +14,15 @@ The code was written by [Yuankai Huo](https://sites.google.com/site/yuankaihuo/)
 <img src='imgs/Figure2.jpg' width=300>
 
 
-If you use this code for your research, please cite:
+If you use this code for your research, please cite :
 
-Yuankai Huo, Zhoubing Xu, Shunxing Bao, Albert Assad, Richard G. Abramson, Bennett A. Landman. [Adversarial Synthesis Learning Enables Segmentation Without Target Modality Ground Truth.](https://arxiv.org/abs/1712.07695)  In [arXiv](https://arxiv.org/abs/1712.07695) 2017.   
+Yuankai Huo, Zhoubing Xu, Shunxing Bao, Albert Assad, Richard G. Abramson, Bennett A. Landman. [Adversarial Synthesis Learning Enables Segmentation Without Target Modality Ground Truth.](https://arxiv.org/abs/1712.07695)  In [arXiv](https://arxiv.org/abs/1712.07695) (2017).   
+
+or
+
+Yuankai Huo, Zhoubing Xu, Hyeonsoo Moon, Shunxing Bao, Albert Assad, Tamara K. Moyo, Michael R. Savona, Richard G. Abramson, and Bennett A. Landman. [SynSeg-Net: Synthetic Segmentation Without Target Modality Ground Truth.](https://arxiv.org/abs/1810.06498) IEEE transactions on medical imaging (2018).
+
+
 
 ## Prerequisites
 - Linux or macOS
